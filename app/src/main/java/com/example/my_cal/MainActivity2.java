@@ -20,13 +20,13 @@ public class MainActivity2 extends AppCompatActivity {
         centerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivityMain1();
+                openActivityMain3();
             }
         });
 
     }
-    public void openActivityMain1() {
-        Intent intent2 = new Intent(this, MainActivity.class);
-        startActivity(intent2);
+    public void openActivityMain3() {
+        Intent intent3 = new Intent(this, MainActivity3.class);
+        startActivity(intent3);
     }
 }
