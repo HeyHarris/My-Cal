@@ -100,10 +100,11 @@
         android:layout_below="@id/signupprompt"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
-        android:text="Sign Up"
+        android:text="@string/signupstring"
         android:textColor="@color/grey_100"
         android:textSize="17sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        />
 
 
 </RelativeLayout>
