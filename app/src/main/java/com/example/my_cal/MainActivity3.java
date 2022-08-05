@@ -19,7 +19,7 @@ public class MainActivity3 extends AppCompatActivity {
         SexBox= findViewById(R.id.SexBox);
 //        SexBox.setOnItemSelectedListener(this);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.SexBox, android.R.layout.simple_spinner_item);
+                R.array.Sexes, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
         SexBox.setAdapter(adapter);
         SexBox.setOnItemSelectedListener((AdapterView.OnItemSelectedListener) this);
