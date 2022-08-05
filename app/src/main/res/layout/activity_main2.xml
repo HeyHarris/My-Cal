@@ -7,13 +7,37 @@
     android:background="@drawable/login_bg"
     tools:context=".MainActivity2">
 
+
+    <ImageView
+        android:id="@+id/mycalslogo"
+        android:src="@drawable/star_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/signuptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mycalslogo"
+        android:layout_centerHorizontal="true"
+        android:text="Sign Up"
+        android:shadowColor="@color/black"
+        android:shadowDx="-2"
+        android:shadowDy="2"
+        android:shadowRadius="0.01"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/centerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:background="@drawable/login_button"
         />
 
 
