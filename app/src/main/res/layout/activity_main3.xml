@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="@drawable/login_bg">
+
+    <ImageView
+        android:id="@+id/mycalslogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/star_logo" />
+
+    <TextView
+        android:id="@+id/Message1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mycalslogo"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Almost Done"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:shadowColor="@color/black"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius=".01" />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/Message2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_below="@id/Message1"
+        android:layout_centerHorizontal="true"
+        android:text="Please insert your bodyweight and height so we can customize your nutrition plan"
+        />
+
+    <Spinner
+        android:id="@+id/SexBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Message2"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
