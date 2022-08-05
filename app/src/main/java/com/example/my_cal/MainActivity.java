@@ -28,9 +28,7 @@ public class MainActivity extends AppCompatActivity {
         signUpLink = (TextView) findViewById(R.id.signuplink);
         signUpLink.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                openActivity2();
-            }
+            public void onClick(View v) {openActivity2();}
         });
     }
     public void openActivity4(){
