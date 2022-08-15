@@ -11,11 +11,13 @@
         android:id="@+id/mycalslogo"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:scaleType="fitXY"
-        android:adjustViewBounds="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:src="@drawable/star_logo" />
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/star_logo"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/Message1"
@@ -46,11 +48,13 @@
         />
 
     <Spinner
-        android:id="@+id/SexBox"
-        android:layout_width="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/Message2"
-        android:layout_centerHorizontal="true" />
-
-
+        android:layout_marginHorizontal="32dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:contentDescription="Dropdown"
+        android:minHeight="48dp"
+        android:popupBackground="#DFFFFFFF" />
 </RelativeLayout>

@@ -2,7 +2,7 @@
     <string name="app_name">My-Cal</string>
     <string name="signupstring"><u>Sign Up</u></string>
     <string-array name="Sexes">
-        <item>Male </item>
+        <item>Male</item>
         <item>Female</item>
     </string-array>
 </resources>
