@@ -25,7 +25,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     }
     public void openActivityMain3() {
-        Intent intentActivity3 = new Intent(this, MainActivity3.class);
-        startActivity(intentActivity3);
+        Intent intentActivityThree = new Intent(this, MainActivity3.class);
+        startActivity(intentActivityThree);
     }
 }
