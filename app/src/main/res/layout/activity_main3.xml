@@ -12,12 +12,12 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:adjustViewBounds="true"
+        android:contentDescription="TODO"
         android:scaleType="fitXY"
         android:src="@drawable/star_logo"
-        tools:ignore="ImageContrastCheck"
-        android:contentDescription="TODO" />
+        tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/Message1"
@@ -57,4 +57,129 @@
         android:contentDescription="Dropdown"
         android:minHeight="48dp"
         android:popupBackground="#DFFFFFFF" />
+
+    <TextView
+        android:id="@+id/weightUnit"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignBaseline="@id/weight"
+        android:layout_below="@id/spinner"
+        android:layout_marginStart="300dp"
+        android:text="lbs"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/field_border"
+        android:drawablePadding="10dp"
+        android:hint="Weight"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weight"
+        android:layout_marginStart="120dp"
+        android:text="ft."
+        android:layout_alignBaseline="@id/heightFt"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_alignLeft="@id/weight"
+        />
+
+    <EditText
+        android:id="@+id/heightFt"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weight"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/field_border"
+        android:drawablePadding="10dp"
+        android:hint="Feet"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/heightIn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/heightFt"
+        android:layout_marginLeft="47dp"
+        android:layout_toRightOf="@id/heightFt"
+        android:background="@drawable/field_border"
+        android:drawablePadding="10dp"
+        android:hint="Inches"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="in."
+        android:layout_alignBaseline="@id/heightIn"
+        android:layout_alignRight="@id/weight"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/Age"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heightFt"
+        android:layout_marginHorizontal="32dp"
+        android:background="@drawable/field_border"
+        android:drawablePadding="10dp"
+        android:hint="Age"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        />
+
+    <Spinner
+        android:id="@+id/activitySpinner"
+        android:layout_width="match_parent"
+        android:layout_below="@id/Age"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="32dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:contentDescription="DropdownActivity"
+        android:minHeight="48dp"
+        android:popupBackground="#DFFFFFFF"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/infoCont"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activitySpinner"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/login_button"
+        android:text="Continue"
+        />
+
 </RelativeLayout>
