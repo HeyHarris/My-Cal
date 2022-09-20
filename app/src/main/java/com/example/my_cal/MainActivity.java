@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         signUpLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {openActivity2();}
+//            Hello Yooner
         });
     }
     public void openActivity4(){
