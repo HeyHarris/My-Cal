@@ -179,7 +179,7 @@
         android:layout_below="@id/activitySpinner"
         android:layout_centerHorizontal="true"
         android:background="@drawable/login_button"
-        android:text="Continue"
+        android:text="Complete"
         />
 
 </RelativeLayout>

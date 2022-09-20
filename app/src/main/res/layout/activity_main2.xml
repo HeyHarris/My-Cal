@@ -103,7 +103,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/passwordsignupfield"
         android:layout_marginTop="15dp"
-        android:text="Complete"
+        android:text="Continue"
         android:textSize="17sp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
