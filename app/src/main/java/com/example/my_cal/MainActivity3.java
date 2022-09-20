@@ -60,15 +60,15 @@ public class MainActivity3 extends AppCompatActivity implements AdapterView.OnIt
         continueButton.setOnClickListener(new View.OnClickListener(){
 
             @Override
-            public void onClick(View view) { openActvity5();}
+            public void onClick(View view) { openActvity4();}
         });
 
 
     }
 
-    public void openActvity5(){
-        Intent open5 = new Intent(this, MainActivity5.class);
-        startActivity(open5);
+    public void openActvity4(){
+        Intent open4 = new Intent(this, MainActivity4.class);
+        startActivity(open4);
     }
 
     @Override
