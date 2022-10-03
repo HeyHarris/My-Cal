@@ -4,10 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/17735/AndroidStudioProjects/My-Cal/app/src/main/res/drawable/graph_standin.xml" value="0.2355" />
+        <entry key="..\:/Users/17735/AndroidStudioProjects/My-Cal/app/src/main/res/layout/activity_food_search.xml" value="0.275" />
         <entry key="..\:/Users/17735/AndroidStudioProjects/My-Cal/app/src/main/res/layout/activity_main.xml" value="0.1337386018237082" />
         <entry key="..\:/Users/17735/AndroidStudioProjects/My-Cal/app/src/main/res/layout/activity_main3.xml" value="0.268" />
         <entry key="..\:/Users/17735/AndroidStudioProjects/My-Cal/app/src/main/res/layout/activity_main4.xml" value="0.3" />
         <entry key="..\:/Users/17735/AndroidStudioProjects/My-Cal/app/src/main/res/layout/activity_main5.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/17735/AndroidStudioProjects/My-Cal/app/src/main/res/layout/activity_main6.xml" value="0.275" />
+        <entry key="..\:/Users/17735/AndroidStudioProjects/My-Cal/app/src/main/res/layout/content_food_search.xml" value="0.275" />
+        <entry key="..\:/Users/17735/AndroidStudioProjects/My-Cal/app/src/main/res/layout/fragment_first2.xml" value="0.275" />
+        <entry key="..\:/Users/17735/AndroidStudioProjects/My-Cal/app/src/main/res/xml/food_api.xml" value="0.275" />
         <entry key="..\:/Users/Harris/AndroidStudioProjects/My-Cal/app/src/main/res/layout/activity_main3.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Harris/AndroidStudioProjects/MyCal/app/src/main/res/drawable/field_border.xml" value="0.2985" />
         <entry key="..\:/Users/Harris/AndroidStudioProjects/MyCal/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.219" />
